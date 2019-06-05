@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145%;
+    color: rgb(75, 81, 93);
+}
+
+body {
+    background-color: rgb(253, 253, 254);
+    margin: 60px 0px;
+    min-width: 300px;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(36, 41, 46);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 60px 0px 10px 0px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 40px 0px 10px 0px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(229,232,235);
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px 0px 10px 0px;
+}
+
+ul {
+    display:table;
+    padding-left: 8%;
+    margin: 0px 0px;
+}
+
+li {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+li:first-of-type {
+    margin-top: 0px;
+}
+
+a {
+    color: rgb(68, 128, 200)
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+audio {
+    width: 100%;
+}
+
+audio:focus {
+    outline: none;
+}
+
+select {
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 20px;
+    width: 170px;
+}
+
+hr {
+    margin: 60px 0px;
+    border-bottom: 1px solid rgb(205, 208, 211);
+}
+
+p {
+    margin: 15px 0px 20px 0px;
+    padding-right: 5px;
+}
+
+.section {
+    margin-bottom: 100px;
+    width: 90%;
+    margin: auto;
+    max-width: 660px;
+}
+
+.toc > li {
+    margin-top: 0px;
+}
+
+.text {
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    line-height: 120%;
+}
+
+.text2 {
+    position: absolute;
+    bottom: 60px;
+}
+
+.labeled-audio {
+    text-align: center;
+    display: inline;
+    max-width: 350px;
+    min-width: 275px;
+    flex: 1 1 275px;
+    margin: 5px 10px;
+    position: relative;
+}
+
+.labeled-audio2 {
+    min-height: 135px;
+}
+
+.labeled-audio2 > audio {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.labeled-audio > p {
+    margin: 10px 0px 2px;
+}
+
+.playlist {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 40px 0px 0px;
+}
+
+.playlist-title {
+    display: block;
+    margin: 0px 20%;
+    margin-top: 30px;
+}
